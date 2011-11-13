@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-vlna
 Version:	20111104
-Release:	1
+Release:	2
 Summary:	TeXLive vlna package
 Group:		Publishing
 URL:		http://tug.org/texlive
@@ -17,9 +17,7 @@ BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
 Requires:	texlive-vlna.bin
-Provides:	vlna = %{version}
-Obsoletes:	vlna <= 1.4
-Conflicts:	vlna <= 1.4
+%rename vlna
 Conflicts:	texlive-texmf <= 20110705-3
 Conflicts:	texlive-doc <= 20110705-3
 
