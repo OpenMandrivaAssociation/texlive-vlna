@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-vlna
 Version:	20131009
-Release:	2
+Release:	3
 Summary:	TeXLive vlna package
 Group:		Publishing
 URL:		http://tug.org/texlive
