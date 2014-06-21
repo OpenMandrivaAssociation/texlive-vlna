@@ -1,12 +1,12 @@
-# revision 29764
+# revision 33736
 # category TLCore
 # catalog-ctan undef
 # catalog-date undef
 # catalog-license undef
 # catalog-version undef
 Name:		texlive-vlna
-Version:	20131009
-Release:	6
+Version:	20140621
+Release:	1
 Summary:	TeXLive vlna package
 Group:		Publishing
 URL:		http://tug.org/texlive
