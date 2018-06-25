@@ -5,7 +5,7 @@
 # catalog-license undef
 # catalog-version undef
 Name:		texlive-vlna
-Version:	20171120
+Version:	20180331
 Release:	1
 Summary:	TeXLive vlna package
 Group:		Publishing
