@@ -1,18 +1,12 @@
-# revision 33736
-# category TLCore
-# catalog-ctan undef
-# catalog-date undef
-# catalog-license undef
-# catalog-version undef
 Name:		texlive-vlna
-Version:	20190327
+Version:	54074
 Release:	1
 Summary:	TeXLive vlna package
 Group:		Publishing
 URL:		http://tug.org/texlive
 License:	http://www.tug.org/texlive/LICENSE.TL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/vlna.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/vlna.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/vlna.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/vlna.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -30,7 +24,7 @@ TeXLive vlna package.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
